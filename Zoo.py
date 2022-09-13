@@ -5,4 +5,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 zoo = pd.read_csv("zoo.csv")
-zoo.head()
+st.title("Zoo Dataset")
+st.table(zoo)
