@@ -2,7 +2,7 @@
 import pandas as pd
 import streamlit as st
 
-zoo = pd.read_csv("./Zoo.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
+zoo = pd.read_csv("/challenge-Zoo/Zoo.csv")  # read a CSV file inside the 'data" folder next to 'app.py'
 # df = pd.read_excel(...)  # will work for Excel files
 
 st.title("Hi, This is my first app!")  # add a title
