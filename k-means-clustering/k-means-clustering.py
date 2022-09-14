@@ -6,3 +6,9 @@ mc = pd.read_csv("./k-means-clustering/mall_customer.csv")  # read a CSV file in
 
 st.title("Hi, This is a dataset of Mall customers!")  # add a title
 st.write(mc)  # visualize my dataframe in the Streamlit app
+
+st.head(mc)
+st.describe(mc)
+
+features = ['Annual_Income_(k$)', 'Spending_Score']
+X = mc[features]
